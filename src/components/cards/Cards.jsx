@@ -1,4 +1,4 @@
-import Card from './Card';
+import Card from '../card/Card';
 import React from 'react';
 
 export default function Cards(props) {
@@ -15,6 +15,7 @@ export default function Cards(props) {
          status={character.status}
          gender={character.gender}
          origin={character.origin.name}
+         species={character.species}
          image={character.image}
          />
       ))};
