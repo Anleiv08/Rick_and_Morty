@@ -1,0 +1,28 @@
+.detail-container{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    border: solid  1px black;
+    margin: 0 auto;
+    max-height: 400px;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.details div {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.details p {
+    margin-bottom: 35px;
+}

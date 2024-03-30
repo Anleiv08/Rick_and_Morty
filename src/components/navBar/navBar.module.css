@@ -1,0 +1,25 @@
+.navontainer{
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90px;
+    padding: 5px 0px;
+}
+
+.linksContainer{
+    text-align: right;
+}
+
+
+.random{
+    border: none; 
+    color: black; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    position: relative;
+    float: left;
+    left: -300px;
+    bottom: -49px
+}
